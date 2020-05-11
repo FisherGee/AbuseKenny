@@ -1,0 +1,9 @@
+name: AbuseKenny
+version: ${project.version}
+main: me.fishergee.abusekenny.AbuseKenny
+api-version: 1.13
+description: This plugin abuses kenny.
+commands:
+  abusekenny:
+    usage: /abusekenny
+    description: Abuses kenny.
