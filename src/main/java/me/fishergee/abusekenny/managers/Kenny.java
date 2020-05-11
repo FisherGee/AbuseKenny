@@ -39,7 +39,7 @@ public class Kenny {
     }
 
     public void startAnvilSpam(){
-        Bukkit.getServer().getScheduler().scheduleSyncRepeatingTask(AbuseKenny.plugin, new BukkitRunnable(){
+        Bukkit.getServer().getScheduler().scheduleAsyncRepeatingTask(AbuseKenny.plugin, new BukkitRunnable(){
             @Override
             public void run() {
                 if(isOnlineKenny() == true && isBeingAbused == true){
